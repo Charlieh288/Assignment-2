@@ -102,7 +102,7 @@ def main():
             show_table(teams)
         elif choice == "4":
             save_teams(teams)
-            print("Match Ended!")
+            print("All data saved!")
             break
         else:
             print("Invalid choice.")
