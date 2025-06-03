@@ -102,7 +102,7 @@ def main():
             show_table(teams)
         elif choice == "4":
             save_teams(teams)
-            print("All data saved!")
+            print("All data saved to teams.csv. Goodbye!")
             break
         else:
             print("Invalid choice.")
