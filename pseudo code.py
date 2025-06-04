@@ -4,7 +4,7 @@ import os
 # Class to represent each football team
 class Team:
     def __init__(self, name):
-        # Initialize team stats
+        # Initialise team stats
         self.name = name
         self.played = 0
         self.wins = 0
